@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="BitCount">
+      <UniqueIdentifier>{949c2519-00bd-4a39-9f34-5af9561dc569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SinCos">
+      <UniqueIdentifier>{ee34c638-c5f4-47f4-9863-fdfdab6f36c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="BitCount\align.h">
+      <Filter>BitCount</Filter>
+    </ClInclude>
+    <ClInclude Include="BitCount\BitCount.h">
+      <Filter>BitCount</Filter>
+    </ClInclude>
+    <ClInclude Include="SinCos\Mathematics\GteConstants.h">
+      <Filter>SinCos</Filter>
+    </ClInclude>
+    <ClInclude Include="SinCos\Mathematics\GteCosEstimate.h">
+      <Filter>SinCos</Filter>
+    </ClInclude>
+    <ClInclude Include="SinCos\GTEngineDEF.h">
+      <Filter>SinCos</Filter>
+    </ClInclude>
+    <ClInclude Include="SinCos\Mathematics\GteSinEstimate.h">
+      <Filter>SinCos</Filter>
+    </ClInclude>
+    <ClInclude Include="SinCos\SinCos.h">
+      <Filter>SinCos</Filter>
+    </ClInclude>
+    <ClInclude Include="SinCos\SinCosLinInt.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LookupTables.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="BitCount\align.cpp">
+      <Filter>BitCount</Filter>
+    </ClCompile>
+    <ClCompile Include="BitCount\BitCount.cpp">
+      <Filter>BitCount</Filter>
+    </ClCompile>
+    <ClCompile Include="BitCount\BitCountBuiltin.cpp">
+      <Filter>BitCount</Filter>
+    </ClCompile>
+    <ClCompile Include="BitCount\BitCountLookup.cpp">
+      <Filter>BitCount</Filter>
+    </ClCompile>
+    <ClCompile Include="BitCount\BitCountSse.cpp">
+      <Filter>BitCount</Filter>
+    </ClCompile>
+    <ClCompile Include="SinCos\SinCos.cpp">
+      <Filter>SinCos</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

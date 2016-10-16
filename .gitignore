@@ -1,0 +1,11 @@
+.vs/
+LookupTables.VC.db
+LookupTables.VC.VC.opendb
+Test/Win32/
+Test/x64/
+ParseResults/obj/
+ParseResults/bin/
+ipch/
+*.user
+SinCosPolyPrecision/Win32/
+SinCosPolyPrecision/x64/
